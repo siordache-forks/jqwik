@@ -2,6 +2,7 @@ description = "Jqwik Engine module"
 
 moduleConfig {
 	moduleInfoPath = 'src/main/module/module-info.java' // don't confuse IDEs
+	neverCompileModuleInfo = true
 }
 
 jar {

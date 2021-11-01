@@ -7,6 +7,7 @@ description = "Jqwik Kotlin module"
 
 moduleConfig {
 	moduleInfoPath = 'src/main/module/module-info.java' // don't confuse IDEs
+	neverCompileModuleInfo = true
 }
 
 jar {
